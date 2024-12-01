@@ -1,0 +1,2448 @@
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+    .main_menu .nav-item .nav-link {
+        margin: 0px 10px;
+    }
+    .wsus__banner_text ul {
+        width: 100%;
+    }
+    .wsus__banner_text ul li:first-child::after {
+        right: -8px;
+    }
+    .wsus__banner_img {
+        height: 480px;
+    }
+    .wsus__features_services .prevArrow,
+    .wsus__features_services .nextArrow {
+        right: -30px;
+    }
+    .wsus__features_services .prevArrow {
+        left: -30px;
+    }
+    .wsus__app_download_img {
+        height: 515px;
+    }
+    .wsus__app_download_text h2 {
+        font-size: 37px;
+    }
+    .wsus__services_text .title {
+        font-size: 20px;
+    }
+    .wsus__single_blog_text h2 {
+        font-size: 20px;
+    }
+    .wsus__subscribe_img {
+        height: 400px;
+    }
+    /* about start */
+    .wsus__about_img .img_2 {
+        right: 0;
+        height: 330px !important;
+    }
+    .wsus__about_reasons_img {
+        height: 560px;
+    }
+    .wsus__about_reasons_img .img_1 {
+        width: 400px !important;
+        height: 400px !important;
+    }
+    /* about end */
+    /* blog details start */
+    .wsus__single_comm_text {
+        width: 81%;
+    }
+    .wsus__single_comment.replay .wsus__single_comm_text {
+        width: 80%;
+    }
+    .wsus__related_blog ul li .text {
+        width: 68%;
+    }
+    /* blog details end */
+    .wsus__booking_payment li {
+        width: 31%;
+    }
+    /* contact start */
+    .wsus__contact_top {
+        padding: 30px;
+    }
+    .contact_map {
+        height: 550px;
+    }
+    /* contact end */
+    .wsus__faq_img {
+        height: 500px;
+    }
+    .wsus__section_heading h2 {
+        font-size: 35px;
+    }
+    .wsus__single_review_top .text {
+        width: 88%;
+    }
+    .wsus__services_text {
+        padding: 20px;
+    }
+    .wsus__single_blog_text {
+        margin: 20px;
+    }
+    /* dashboard start */
+    .wsus_dashboard_order table tr th,
+    .wsus_dashboard_order table tr td {
+        width: 161px;
+    }
+    /* dashboard end */
+    .wsus__sellar_search form {
+        width: 33%;
+    }
+    /* HOME 2 START */
+    .home_2 .wsus__single_categories .shapes {
+        right: -85px;
+    }
+    .wsus__booking_service_img {
+        height: 485px;
+    }
+    .wsus__booking_service_img .text {
+        padding-bottom: 35px;
+    }
+    .wsus__booking_service_img .text span {
+        margin-bottom: 30px;
+    }
+    .testimonial2 .wsus__single_testimonial {
+        padding: 20px;
+    }
+    .testimonial2 .wsus__single_testimonial .review_text::before {
+        top: -40px;
+        left: -3px;
+        font-size: 100px;
+    }
+    .wsus__single_brand {
+        height: 85px;
+    }
+    /* HOME 2 END */
+    .home_3 .wsus__app_download_img {
+        height: 400px;
+    }
+    .wsus__section_heading p {
+        padding: 0px 75px;
+    }
+    .home_3 .banner_tag ul li a {
+        padding: 8px 23px;
+    }
+    .wsus__banner_text ul li {
+        min-width: 222px;
+    }
+    .wsus__subscribe_img img {
+        bottom: -24px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    /* home page start */
+    .main_menu .navbar-brand {
+        width: 150px;
+    }
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-right: 20px;
+        margin-right: 20px;
+    }
+    .wsus__topbar_language {
+        margin-right: 15px;
+    }
+    .main_menu .nav-item .nav-link {
+        margin: 0px 10px;
+    }
+    .main_menu .wsus__right_menu li a {
+        margin: 0px 5px;
+    }
+    .wsus__banner_text h1 {
+        font-size: 40px !important;
+    }
+    .wsus__banner_text p {
+        font-size: 16px;
+    }
+    .wsus__banner_text ul li {
+        width: 50%;
+    }
+    .wsus__banner_text ul li:last-child {
+        width: 100%;
+        padding-top: 0;
+        margin-top: 10px;
+    }
+    .wsus__banner_text ul li:nth-child(2)::after {
+        display: none;
+    }
+    .wsus__banner_text ul li .select2-container {
+        width: 100% !important;
+    }
+    .wsus__banner_text ul {
+        width: 100%;
+    }
+    .wsus__banner_text ul li button {
+        width: 100%;
+    }
+    .wsus__banner_img {
+        height: 430px;
+    }
+    .wsus__banner_img .banner_counter {
+        right: -20px;
+    }
+    .wsus__seller_join_text h3 {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    .wsus__app_download_img {
+        height: 350px;
+    }
+    .wsus__subscribe_img {
+        height: 415px;
+    }
+    .wsus__footer_content h2 {
+        font-size: 22px;
+    }
+    .single_service_footer .img_area {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .wsus__services_text {
+        padding: 15px;
+    }
+    .wsus__services_img {
+        height: 200px;
+    }
+    .wsus__single_blog_img {
+        height: 200px;
+    }
+    .wsus__section_heading h2 {
+        font-size: 35px;
+    }
+    /* home page end */
+    /* 404 start */
+    .wsus__404_text {
+        margin-top: 5px;
+    }
+    /* 404 end */
+    /* about start */
+    .wsus__work_single {
+        padding: 0px 25px;
+    }
+    .wsus__work_single h4 {
+        font-size: 20px;
+    }
+    .wsus__about_img .img_2 {
+        right: 0;
+        height: 320px !important;
+    }
+    .wsus__about_reasons_img .img_1 {
+        width: 400px !important;
+        height: 400px !important;
+    }
+    .wsus__about_reasons_img .img_2 {
+        width: 300px !important;
+        height: 300px !important;
+    }
+    .wsus__about_reasons_img {
+        height: 100%;
+    }
+    /* about end */
+    /* blog details start */
+    .wsus__blog_details_img {
+        height: 350px;
+    }
+    .wsus__blog_det_slider {
+        margin-bottom: 30px;
+    }
+    .blog_det_button li a p,
+    .blog_det_button li a p span {
+        font-size: 16px;
+    }
+    .blog_det_button li a p {
+        width: 65%;
+    }
+    .blog_det_button li {
+        padding: 18px;
+    }
+    .wsus__single_comm_text {
+        width: 78%;
+    }
+    .wsus__single_comment.replay .wsus__single_comm_text {
+        width: 76%;
+    }
+    .wsus__related_blog ul li .text {
+        width: 65%;
+    }
+    .wsus__related_blog ul li .text a {
+        font-size: 16px;
+    }
+    .wsus__blog_det_slider_item {
+        height: 200px;
+    }
+    .blog_det_button li a img {
+        width: 90px !important;
+        height: 100px !important;
+    }
+    .blog_sidebar {
+        padding: 20px;
+    }
+    /* blog details end */
+    /* blog start */
+    .wsus__single_blog_text {
+        margin: 15px;
+    }
+    .wsus__single_blog_text ul li {
+        margin-right: 0;
+        width: 50%;
+    }
+    .wsus__single_blog_text h2 {
+        font-size: 20px;
+    }
+    .wsus__single_blog_text a {
+        font-size: 16px;
+    }
+    /* blog end */
+    /* booking start */
+    .wsus__booking_img {
+        height: 300px;
+    }
+    .wsus__booking_payment li {
+        width: 31%;
+    }
+    .wsus__booking_info_img {
+        height: 400px;
+    }
+    /* booking end */
+    /* contact start */
+    .wsus__contact_top {
+        padding: 25px;
+    }
+    .wsus__contact_top a,
+    .wsus__contact_top p {
+        font-size: 16px;
+    }
+    .contact_map {
+        height: 400px;
+    }
+    /* contact end */
+    .wsus__faq_img {
+        height: 500px;
+    }
+    .wsus__section_heading h2 {
+        font-size: 35px;
+    }
+    /* sellar page start */
+    .wsus__features_services .prevArrow,
+    .wsus__features_services .nextArrow {
+        right: -15px;
+    }
+    .wsus__features_services .prevArrow {
+        right: auto;
+        left: -15px;
+    }
+    .wsus__services_text .title {
+        font-size: 20px;
+    }
+    /* sellar page end */
+    /* service details start */
+    .wsus__service_details_img {
+        height: 400px;
+    }
+    .tab_details .list li {
+        font-size: 14px;
+        padding-left: 35px;
+    }
+    .wsus__single_review_top .text {
+        width: 86%;
+    }
+    .wsus__service_provider {
+        padding: 0;
+    }
+    /* service details end */
+    /* login start */
+    .wsus__sign_in_text h2 {
+        font-size: 35px;
+    }
+    /* login end */
+    /* dashboard start */
+    .wsus__dashboard_info {
+        padding: 20px;
+    }
+    .wsus__dashboard_info h5 {
+        font-size: 16px;
+    }
+    .wsus__dashboard_info h2 {
+        font-size: 40px;
+    }
+    .wsus_dashboard_order table tr th,
+    .wsus_dashboard_order table tr td {
+        width: 150px;
+    }
+    /* dashboard end */
+    .wsus__sellar_search form {
+        width: 37%;
+    }
+    /* HOME PAGE 2 START */
+    .menu_search_form {
+        width: 170px;
+        margin-right: 4px;
+    }
+    .main_menu .nav-item .nav-link {
+        font-size: 15px;
+    }
+    .main_menu .wsus__right_menu li:nth-child(2) a {
+        padding: 0px 10px;
+    }
+    .home_2 .main_menu .navbar-brand {
+        width: 130px;
+    }
+    .wsus__services_text2 {
+        padding: 15px;
+    }
+    .wsus__services_text2 ul {
+        margin-top: 15px;
+    }
+    .wsus__services_text2 img {
+        left: 15px;
+    }
+    .wsus__services_text2 .title {
+        font-size: 20px;
+    }
+    .wsus__services_img2 {
+        height: 200px;
+    }
+    .home_2 .wsus__single_categories .shapes {
+        right: -90px;
+    }
+    .home_2 .wsus__booking_service_img {
+        height: 480px;
+    }
+    .home_2 .wsus__booking_service_img .text {
+        padding-bottom: 35px;
+    }
+    .home_2 .wsus__booking_service_img .text span {
+        margin-bottom: 32px;
+    }
+    .home_2 .wsus__app_download_text h2 {
+        font-size: 35px;
+    }
+    .home_2 .wsus__app_download_img {
+        height: 415px;
+        margin: 10px 0px 5px 0px;
+    }
+    /* HOME PAGE 2 END */
+    /* HOME PAGE 3 START */
+    .home_3 .banner_tag ul li a {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .home_3 .banner_tag span {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .home_3 .wsus__app_download_img {
+        height: 340px;
+    }
+    .wsus__single_testimonial .review_text {
+        padding: 25px;
+    }
+    /* HOME PAGE 3 END */
+    .wsus__invoice table tr th,
+    .wsus__invoice table tr td {
+        padding: 50px 10px !important;
+    }
+    .wsus__invoice .package {
+        min-width: 250px;
+    }
+    .wsus__invoice .price,
+    .wsus__invoice .qnty,
+    .wsus__invoice .total {
+        min-width: 130px;
+    }
+    .wsus__invoice_footer_request {
+        margin: 50px 0px 0px 0px;
+    }
+    .wsus__invoice_footer_total {
+        margin-top: 30px;
+    }
+    .wsus__support_ticket_top .right {
+        width: 65%;
+    }
+    .wsus__support_ticket_top .right a {
+        width: 230px;
+    }
+    .wsus__ticket_item table tr .sn {
+        min-width: 80px;
+    }
+    .wsus__ticket_item table tr .from,
+    .wsus__ticket_item table tr .info {
+        min-width: 240px;
+    }
+    .wsus__ticket_item table tr .status,
+    .wsus__ticket_item table tr .action {
+        min-width: 150px;
+    }
+    .wsus__support_tecket_footer p {
+        margin-bottom: 15px;
+    }
+    .wsus__support_ticket_top .right form {
+        width: 100%;
+    }
+    .wsus__section_heading p {
+        padding: 0px 50px;
+    }
+    .home_3 .banner_tag ul li {
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+    /* home page start */
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .wsus__topbar_info {
+        justify-content: center;
+        line-height: 0;
+    }
+    .wsus__topbar_info li {
+        margin: 0px 15px;
+    }
+    .wsus__topbar_language {
+        margin-right: 20px;
+    }
+    .wsus__topbar_info li a::after {
+        display: none;
+    }
+    .wsus__topbar {
+        padding-top: 18px;
+    }
+    .wsus__topbar_right {
+        display: none !important
+    }
+    .main_menu {
+        height: 70px;
+        top: 50px;
+    }
+    .wsus__banner {
+        height: auto;
+    }
+    .main_menu .nav-item .nav-link {
+        text-align: center;
+    }
+    .main_menu .container {
+        padding: 10px .75rem;
+    }
+    .main_menu .navbar-nav {
+        line-height: 50px;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorPrimary);
+        margin-top: 8px !important;
+        padding-top: 15px;
+    }
+    .wsus__banner_text ul li .select2-container--default .select2-selection--single .select2-selection__rendered {
+        font-size: 16px;
+    }
+    .wsus__right_menu {
+        background: var(--colorWhite);
+        padding: 10px 0px 20px 0px;
+        justify-content: center;
+    }
+    .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        background: var(--colorPrimary);
+        color: var(--colorWhite);
+        border: none;
+        text-align: center;
+    }
+    .main_menu .wsus__droap_menu {
+        left: 50%;
+        transform: translateX(-50%);
+        max-height: 250px;
+        overflow-y: scroll;
+    }
+    .search_form {
+        right: auto;
+        left: -50px;
+        width: 350px;
+    }
+    .wsus__banner_text h1 {
+        font-size: 45px;
+    }
+    .wsus__banner_text p {
+        font-size: 16px;
+    }
+    .wsus__banner_text ul {
+        width: 100%;
+    }
+    /* .wsus__banner_text ul li:first-child::after {
+        right: -32px;
+    } */
+    .wsus__services_img {
+        height: 200px;
+    }
+    .wsus__banner_text {
+        height: auto;
+        margin-top: 200px;
+        padding-top: 0;
+    }
+    .home_3 .wsus__banner_text {
+        padding: 0 !important;
+        margin: 137px 0px 70px 0px;
+    }
+    .wsus__services_text {
+        padding: 15px;
+    }
+    .wsus__services_text .title {
+        font-size: 20px;
+    }
+    .wsus__section_heading h2 {
+        font-size: 35px;
+    }
+    .wsus__single_counter span {
+        width: 80px;
+        height: 80px;
+        padding: 23px;
+    }
+    .wsus__single_counter h4 {
+        margin: 15px 0px 5px 0px;
+    }
+    .wsus__single_counter {
+        margin-bottom: 40px;
+    }
+    .wsus__counter_overlay {
+        padding: 70px 0px 25px 0px;
+    }
+    .wsus__seller_join_text h3 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .wsus__app_download_text h2 {
+        font-size: 25px;
+    }
+    .wsus__app_download_text ul {
+        margin-top: 25px;
+    }
+    .wsus__app_download_text ul li a {
+        padding: 12px 20px 10px 20px;
+        margin-right: 10px;
+    }
+    .wsus__features_services .prevArrow,
+    .wsus__features_services .nextArrow {
+        right: -20px
+    }
+    .wsus__features_services .prevArrow {
+        right: auto;
+        left: -20px;
+    }
+    .wsus__app_download_img {
+        height: 260px;
+    }
+    .wsus__single_blog_img {
+        height: 200px;
+    }
+    .wsus__single_blog_text h2 {
+        font-size: 20px;
+    }
+    .wsus__single_blog_text {
+        margin: 15px;
+    }
+    /* .wsus__subscribe_img {
+        display: non;
+    }
+
+    .wsus__subscribe_img img {
+        bottom: -45px;
+    } */
+    .wsus__subscribe_text p {
+        font-size: 16px;
+    }
+    .wsus__subscribe_text h3 {
+        font-size: 35px;
+    }
+    /* .wsus__subscribe_text {
+        padding: 60px 0px 70px 0px;
+    } */
+    .wsus__footer_content {
+        margin-bottom: 50px;
+    }
+    .wsus__footer_bottom_content {
+        flex-direction: column;
+    }
+    .wsus__footer_bottom p {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .wsus__banner_text ul li {
+        /* padding: 10px; */
+        min-width: 250px;
+    }
+    /* home page end */
+    /* 404 start */
+    .wsus__404_text {
+        margin-top: 25px;
+        margin-bottom: 55px;
+    }
+    /* 404 end */
+    /* about start */
+    .wsus__work_single::after {
+        display: none;
+    }
+    .wsus__about_img .img_1 {
+        width: 550px !important;
+    }
+    .wsus__about_img .img_2 {
+        height: 300px !important;
+    }
+    .wsus__about_text h2 {
+        font-size: 35px;
+        margin-top: 25px;
+    }
+    .wsus__about_reasons_text h2 {
+        font-size: 35px;
+    }
+    .wsus__about_reasons_img {
+        margin-top: 25px;
+    }
+    .wsus__about_reasons_img .img_1 {
+        width: 450px !important;
+        height: 450px !important;
+    }
+    /* about end */
+    /* blog details start */
+    .wsus__blog_details_img {
+        height: 350px;
+    }
+    .wsus__blog_det_slider {
+        margin-bottom: 30px;
+    }
+    .blog_det_button li a p,
+    .blog_det_button li a p span {
+        font-size: 18px;
+    }
+    .blog_det_button li a p {
+        width: 60%;
+    }
+    .wsus__single_comm_text {
+        width: 80%;
+    }
+    .wsus__single_comment.replay .wsus__single_comm_text {
+        width: 79%;
+    }
+    .comment_input {
+        margin-bottom: 25px;
+    }
+    .wsus__related_blog ul li .text {
+        width: 83%;
+    }
+    /* blog details end */
+    /* blog start */
+    .wsus__pagination {
+        margin-bottom: 25px;
+    }
+    /* blog end */
+    /* booking start */
+    .wsus__booking_img {
+        height: 300px;
+    }
+    .wsus__booking_payment li {
+        width: 31.33%;
+    }
+    .wsus__booking_payment {
+        margin-bottom: 25px;
+    }
+    .wsus__booking_button_area {
+        margin-bottom: 25px;
+    }
+    .wsus__booking_info_img {
+        height: 450px;
+    }
+    /* booking end */
+    /* contact start */
+    .wsus__contact_top {
+        padding: 30px;
+        margin-bottom: 25px;
+    }
+    .wsus__contact_top a,
+    .wsus__contact_top p {
+        font-size: 15px;
+    }
+    .contact_input {
+        padding: 15px;
+    }
+    .contact_map {
+        height: 300px;
+    }
+    /* contact end */
+    /* faq start */
+    .wsus__faq_area {
+        margin-bottom: 25px;
+    }
+    .wsus__faq_img {
+        height: 500px;
+    }
+    /* faq end */
+    /* saller page start */
+    .wsus__sellar_top .text h2 {
+        font-size: 30px;
+    }
+    .wsus__sellar_top .text span {
+        font-size: 16px;
+    }
+    .wsus__sellar_top .text a,
+    .wsus__sellar_top .text p {
+        font-size: 15px;
+    }
+    .wsus__sellar_top ul li {
+        font-size: 15px;
+    }
+    .wsus__sellar_search h3 {
+        font-size: 25px;
+    }
+    .wsus__sellar_top img {
+        width: 150px !important;
+        height: 150px !important;
+        margin: 25px 25px 25px 0px;
+    }
+    .wsus__sellar_top_text .text {
+        width: 74%;
+        padding: 30px 0px;
+    }
+    .wsus__services_text .title {
+        font-size: 20px;
+    }
+    /* saller page end */
+    /* service details start */
+    .wsus__service_details_img {
+        height: 350px;
+    }
+    .wsus__service_details_content {
+        margin-bottom: 25px;
+    }
+    .wsus__single_review_top .text {
+        width: 84%;
+    }
+    /* service details end */
+    /* login start */
+    .wsus__sign_in_text h2 {
+        font-size: 35px;
+    }
+    /* login end */
+    /* dashboard start */
+    .wsus__dashboard_content {
+        padding: 25px;
+    }
+    .wsus_dashboard_order table tr th,
+    .wsus_dashboard_order table tr td {
+        width: 150px;
+    }
+    .wsus_dash_personal_info p span {
+        width: 150px;
+    }
+    /* dashboard end */
+    .wsus__banner_img {
+        height: auto;
+        padding-top: 40px;
+        margin-bottom: 55px;
+    }
+    .wsus__banner_img .img {
+        height: auto !important;
+    }
+    .wsus__sellar_search form {
+        width: 50%;
+    }
+    /* HOME PAGE 2 START */
+    .home_2 .navbar-toggler {
+        background: #00BF8C;
+    }
+    #navbarNav {
+        border-bottom: 1px solid #00BF8C;
+    }
+    .main_menu .navbar-nav {
+        border-top: 1px solid #00BF8C;
+    }
+    .menu_search_form {
+        margin-bottom: 20px;
+    }
+    .wsus__banner_overlay {
+        padding: 0px 0px 70px 0px;
+    }
+    .home_2 .wsus__banner_text ul li button {
+        width: auto;
+        margin: 0;
+    }
+    .home_2 .wsus__banner_text .wsus__banner_search {
+        justify-content: space-between;
+    }
+    .wsus__services_text2 .title {
+        font-size: 20px;
+        margin: 10px 0px 20px 0px;
+    }
+    .wsus__booking_service_img {
+        display: none;
+    }
+    .wsus__booking_service_overlay {
+        padding: 70px 0px 255px 0px;
+    }
+    .home_2 .wsus__app_download_img {
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+    .wsus__counter2_bg {
+        padding: 70px 0px 30px 0px;
+    }
+    .wsus__app_download2 .wsus__app_download_text {
+        margin: 0px 0px 65px 0px;
+    }
+    .wsus__services_text2 {
+        padding: 15px;
+    }
+    .wsus__services_text2 ul {
+        margin-top: 15px;
+    }
+    .wsus__services_text2 img {
+        left: 15px;
+    }
+    .home_2 .wsus__single_categories .shapes {
+        right: -90px;
+    }
+    .testimonial2 .wsus__single_testimonial {
+        padding: 20px;
+    }
+    .testimonial2 .wsus__single_testimonial .review_text::before {
+        top: -40px;
+        left: -5px;
+        font-size: 100px;
+    }
+    /* HOME PAGE 2 END */
+    /* HOME PAGE 3 START */
+    .home_3 .wsus__counter_3 {
+        padding-bottom: 30px !important;
+    }
+    .wsus__work_sectiion_img {
+        margin-top: 25px;
+    }
+    .home_3 .wsus__app_download_img {
+        height: 250px;
+    }
+    /* HOME PAGE 3 END */
+    .wsus__sellar_joining_bg {
+        padding: 40px;
+    }
+    .wsus__invoice table tr th,
+    .wsus__invoice table tr td {
+        padding: 50px 10px !important;
+    }
+    .wsus__invoice .package {
+        min-width: 200px;
+    }
+    .wsus__invoice .price,
+    .wsus__invoice .qnty,
+    .wsus__invoice .total {
+        min-width: 130px;
+    }
+    .wsus__invoice_footer_request {
+        margin: 50px 0px 0px 0px;
+    }
+    .wsus__invoice_footer_total {
+        margin-top: 30px;
+    }
+    .wsus__ticket_item table tr .sn {
+        min-width: 80px;
+    }
+    .wsus__ticket_item table tr .from,
+    .wsus__ticket_item table tr .info {
+        min-width: 240px;
+    }
+    .wsus__ticket_item table tr .status,
+    .wsus__ticket_item table tr .action {
+        min-width: 150px;
+    }
+    .wsus__section_heading p {
+        padding: 0px 115px;
+    }
+    .wsus__breadcrumb_overlay {
+        padding: 150px 0px 85px 0px !important;
+    }
+    .wsus__404 {
+        height: auto;
+    }
+    .wsus__404 div {
+        height: auto;
+    }
+    .wsus__sellar_top {
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+    /* home page start */
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .wsus__topbar_info {
+        justify-content: space-between;
+        line-height: 0;
+    }
+    .wsus__topbar_info li a::after {
+        display: none;
+    }
+    .wsus__topbar {
+        padding-top: 18px;
+    }
+    .wsus__topbar_right {
+        display: none !important;
+    }
+    .main_menu {
+        height: 70px;
+        top: 50px;
+    }
+    .wsus__banner {
+        height: auto;
+    }
+    .main_menu .nav-item .nav-link {
+        text-align: center;
+    }
+    .main_menu .container {
+        padding: 10px .75rem;
+    }
+    .main_menu .navbar-nav {
+        line-height: 50px;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorPrimary);
+        margin-top: 8px !important;
+        padding-top: 15px;
+    }
+    .wsus__banner_text ul li .select2-container--default .select2-selection--single .select2-selection__rendered {
+        font-size: 16px;
+    }
+    .wsus__right_menu {
+        background: var(--colorWhite);
+        padding: 10px 0px 20px 0px;
+        justify-content: center;
+    }
+    .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        background: var(--colorPrimary);
+        color: var(--colorWhite);
+        border: none;
+        text-align: center;
+    }
+    .main_menu .wsus__droap_menu {
+        left: 50%;
+        transform: translateX(-50%);
+        max-height: 250px;
+        overflow-y: scroll;
+    }
+    .search_form {
+        right: auto;
+        left: 10px;
+    }
+    .search_form {
+        right: auto;
+        left: -50px;
+        width: 350px;
+    }
+    .wsus__banner_text h1 {
+        font-size: 40px !important;
+    }
+    .wsus__banner_text p {
+        font-size: 16px;
+    }
+    .wsus__banner_text ul {
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+    }
+    .wsus__banner_text ul li::after {
+        display: none;
+    }
+    .wsus__banner_text ul li :no-button {
+        width: 100%;
+    }
+    .wsus__banner_text ul li {
+        width: 100%;
+        padding: 5px 20px;
+        border-bottom: 1px solid #eee;
+    }
+    .home_2 .wsus__banner_text ul li:last-child {
+        border-bottom: 0;
+    }
+    .home_2 .wsus__banner_text .wsus__banner_search {
+        padding: 0px 0px 10px 0px;
+    }
+    .wsus__banner_text ul li button {
+        width: 100%;
+        margin: 13px 0px;
+    }
+    .wsus__banner_text ul li .select2-container {
+        width: 100% !important;
+    }
+    .wsus__banner_text ul li .select2-container--default .select2-selection--single .select2-selection__rendered {
+        padding-left: 0;
+    }
+    .wsus__banner_img {
+        height: 540px;
+        margin: 40px 0px 43px 0px;
+        padding: 0;
+    }
+    .wsus__banner_img .banner_counter {
+        right: -25px;
+    }
+    .wsus__banner_text {
+        height: auto;
+        margin-top: 175px;
+        padding: 0;
+    }
+    .wsus__section_heading h2 {
+        font-size: 30px;
+    }
+    .wsus__single_counter span {
+        width: 80px;
+        height: 80px;
+        padding: 23px;
+    }
+    .wsus__single_counter h4 {
+        margin: 15px 0px 5px 0px;
+    }
+    .wsus__single_counter {
+        margin-bottom: 40px;
+    }
+    .wsus__counter_overlay {
+        padding: 70px 0px 25px 0px;
+    }
+    .wsus__seller_join_text h3 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .wsus__app_download_text h2 {
+        font-size: 30px;
+    }
+    .wsus__app_download_text ul {
+        margin-top: 25px;
+    }
+    .wsus__app_download_text ul li a {
+        margin-bottom: 10px;
+    }
+    .wsus__app_download_img {
+        width: 400px;
+        height: 370px;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    .wsus__single_testimonial_img p span {
+        font-size: 20px;
+    }
+    .wsus__subscribe_text p {
+        font-size: 16px;
+    }
+    .wsus__subscribe_text h3 {
+        font-size: 35px;
+    }
+    .wsus__subscribe_text {
+        padding: 60px 0px 70px 0px;
+    }
+    .wsus__footer_content {
+        margin-bottom: 25px;
+        border-bottom: 1px solid #2f2f2f;
+        padding-bottom: 25px;
+    }
+    .wsus__footer_bottom_content {
+        flex-direction: column;
+    }
+    .wsus__footer_bottom p {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .wsus__features_services .prevArrow,
+    .wsus__features_services .nextArrow {
+        right: -20px;
+    }
+    .wsus__features_services .prevArrow {
+        left: -20px;
+    }
+    /* home page end */
+    /* 404 start */
+    .wsus__404_text h2 {
+        font-size: 100px;
+    }
+    .wsus__404_text h3 {
+        font-size: 25px;
+    }
+    .wsus__404_text {
+        margin-top: 65px;
+        margin-bottom: 75px;
+    }
+    /* 404 end */
+    /* about start */
+    .wsus__breadcrumb nav h1 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .wsus__work_single {
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+    .wsus__work_single h4 {
+        font-size: 20px;
+        margin: 15px 0px 15px 0px;
+    }
+    .wsus__work_single.last_item {
+        margin-bottom: 0;
+    }
+    .wsus__about_img .img_1 {
+        height: 390px !important;
+    }
+    .wsus__about_img .img_2 {
+        height: 275px !important;
+        right: 0;
+    }
+    .wsus__about_img {
+        height: 500px;
+    }
+    .wsus__about_text h2 {
+        font-size: 35px;
+        margin-top: 25px;
+    }
+    .wsus__about_reasons_text h2 {
+        font-size: 25px;
+    }
+    .wsus__about_reasons_img .img_1 {
+        width: 350px !important;
+        height: 350px !important;
+    }
+    .wsus__about_reasons_img .img_2 {
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .wsus__about_reasons_img {
+        height: 400px;
+    }
+    /* about end */
+    /* blog details start */
+    .wsus__blog_details_img {
+        height: 300px;
+    }
+    .wsus__blog_details_text h2 {
+        font-size: 20px;
+    }
+    .wsus__blog_quot_text {
+        padding: 20px 20px 20px 40px;
+    }
+    .wsus__blog_quot_text .left_icon {
+        left: 10px;
+        top: 15px;
+    }
+    .wsus__blog_det_slider {
+        margin-bottom: 30px;
+    }
+    .blog_det_button li {
+        padding: 15px;
+    }
+    .blog_det_button li a p,
+    .blog_det_button li a p span {
+        font-size: 15px;
+    }
+    .blog_det_button li a img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .blog_det_button li a p {
+        width: 60%;
+    }
+    .wsus__single_comm_text {
+        width: 75%;
+    }
+    .wsus__comment {
+        padding: 15px;
+    }
+    .wsus__single_comment.replay {
+        padding-left: 40px;
+    }
+    .wsus__single_comment.replay .wsus__single_comm_text {
+        width: 73%;
+    }
+    .comment_input {
+        margin-bottom: 25px;
+    }
+    .wsus__related_blog ul li .text {
+        width: 78%;
+    }
+    /* blog details end */
+    /* blog start */
+    .wsus__pagination {
+        margin-bottom: 25px;
+    }
+    /* blog end */
+    /* booking start */
+    .booking_bar li {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 70px;
+    }
+    .booking_bar li::after {
+        width: 80px;
+    }
+    .booking_bar li span {
+        font-size: 12px;
+        bottom: -35px;
+        left: -33px;
+        width: 100px;
+        text-align: center;
+    }
+    .wsus__booking_img {
+        height: 250px;
+        margin-top: 50px;
+    }
+    .wsus__booking_payment li {
+        width: 47%;
+        margin-bottom: 10px;
+        height: 110px;
+    }
+    .wsus__booking_payment {
+        margin-bottom: 15px;
+    }
+    .wsus__booking_info h3 {
+        margin-top: 40px;
+    }
+    .wsus__booking_button_area {
+        margin-bottom: 25px;
+    }
+    .wsus__booking_info_img {
+        height: 350px;
+    }
+    /* booking end */
+    /* contact start */
+    .wsus__contact_top {
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+    .wsus__contact_top a,
+    .wsus__contact_top p {
+        font-size: 15px;
+    }
+    .contact_input {
+        padding: 15px;
+    }
+    .contact_map {
+        height: 300px;
+    }
+    .wsus__support_time img {
+        height: 330px !important;
+    }
+    /* contact end */
+    /* faq start */
+    .wsus__faq_area {
+        margin-bottom: 25px;
+    }
+    .wsus__faq_img {
+        height: 550px;
+    }
+    /* faq end */
+    /* saller page start */
+    .wsus__sellar_top .text h2 {
+        font-size: 30px;
+    }
+    .wsus__sellar_top .text span {
+        font-size: 16px;
+    }
+    .wsus__sellar_top .text a,
+    .wsus__sellar_top .text p {
+        font-size: 15px;
+    }
+    .wsus__sellar_top ul li {
+        font-size: 15px;
+        width: 100%;
+        margin: 0;
+    }
+    .wsus__sellar_search h3 {
+        font-size: 25px;
+    }
+    .wsus__sellar_search form {
+        width: 60%;
+    }
+    .wsus__sellar_top img {
+        width: 150px !important;
+        height: 150px !important;
+        margin: 25px 25px 25px 0px;
+    }
+    .wsus__sellar_top_text .text {
+        width: 65%;
+        padding: 30px 0px;
+    }
+    .wsus__services_text .title {
+        font-size: 20px;
+    }
+    /* saller page end */
+    /* service details start */
+    .wsus__service_details_img {
+        height: 250px;
+    }
+    .wsus__service_details_content {
+        margin-bottom: 25px;
+    }
+    .wsus__single_review_top .text {
+        width: 84%;
+    }
+    /* service details end */
+    /* login start */
+    .wsus__sign_in_text h2 {
+        font-size: 30px;
+    }
+    /* login end */
+    /* dashboard start */
+    .wsus__dashboard_content {
+        padding: 0px 15px 15px 15px;
+    }
+    .wsus_dashboard_body h3 {
+        font-size: 20px;
+    }
+    .wsus_dash_personal_info p span {
+        width: 100%;
+    }
+    .wsus__dashboard p {
+        margin-top: 20px;
+    }
+    .wsus_dashboard_order table tr th,
+    .wsus_dashboard_order table tr td {
+        width: 150px;
+    }
+    .wsus__single_review_top .text h3 span {
+        display: block;
+        margin-top: 4px;
+    }
+    .wsus_dashboard_order {
+        margin-top: 25px;
+    }
+    .dashboard_review {
+        padding: 15px;
+    }
+    .wsus_dashboard_body {
+        margin-top: 25px;
+    }
+    .wsus__dashboard .modal-dialog {
+        width: 95%;
+    }
+    /* dashboard end */
+    /* HOME PAGE 2 START */
+    .home_2 .navbar-toggler {
+        background: #00BF8C;
+    }
+    #navbarNav {
+        border-bottom: 1px solid #00BF8C;
+    }
+    .main_menu .navbar-nav {
+        border-top: 1px solid #00BF8C;
+    }
+    .menu_search_form {
+        margin-bottom: 20px;
+    }
+    .wsus__banner_overlay {
+        padding: 0px 0px 70px 0px;
+    }
+    .home_2 .wsus__banner_text ul li button {
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .home_2 .wsus__banner_text .wsus__banner_search {
+        justify-content: space-between;
+    }
+    .wsus__services_text2 .title {
+        font-size: 20px;
+        margin: 10px 0px 20px 0px;
+    }
+    .wsus__booking_service_img {
+        display: none;
+    }
+    .wsus__booking_service_text h2 {
+        font-size: 30px;
+    }
+    .wsus__booking_service_overlay {
+        padding: 70px 0px 255px 0px;
+    }
+    .home_2 .wsus__app_download_img {
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+    .wsus__counter2_bg {
+        padding: 70px 0px 30px 0px;
+    }
+    .wsus__app_download2 {
+        padding-top: 0 !important;
+    }
+    /* HOME PAGE 2 END */
+    /* HOME PAGE 3 START */
+    .home_3 .navbar-toggler {
+        background: linear-gradient(70.49deg, #6765F9 0%, #2251E2 98.96%);
+    }
+    .home_3 .wsus__banner_text .wsus__banner_search {
+        justify-content: space-between;
+    }
+    .home_3 .banner_tag ul li {
+        width: auto;
+    }
+    .home_3 .banner_tag span {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .home_3 .wsus__banner_text {
+        margin: 127px 0px 60px 0px;
+        padding-bottom: 0;
+    }
+    .home_3 .wsus__counter_3 {
+        padding-bottom: 25px !important;
+    }
+    .wsus__work_sectiion_img {
+        height: 270px;
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+    .wsus__work_sectiion_img::after {
+        height: 89%;
+    }
+    .wsus__work_sectiion_img::before {
+        height: 78%;
+    }
+    .home_3 .wsus__seller_join_text h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .home_3 .wsus__subscribe_text form input {
+        padding: 17px 20px;
+    }
+    .home_3 .wsus__sellar_bg {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    /* HOME PAGE 3 END */
+    .wsus__sellar_joining_bg {
+        padding: 30px;
+    }
+    .wsus__invoice table tr th,
+    .wsus__invoice table tr td {
+        padding: 50px 10px !important;
+    }
+    .wsus__invoice .package {
+        min-width: 200px;
+    }
+    .wsus__invoice .price,
+    .wsus__invoice .qnty,
+    .wsus__invoice .total {
+        min-width: 130px;
+    }
+    .wsus__invoice_footer_request {
+        margin: 50px 0px 0px 0px;
+    }
+    .wsus__invoice_footer_total {
+        margin-top: 30px;
+    }
+    .wsus__support_ticket_top .right {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .wsus__support_ticket_top .right a {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .wsus__ticket_item table tr .sn {
+        min-width: 80px;
+    }
+    .wsus__ticket_item table tr .from,
+    .wsus__ticket_item table tr .info {
+        min-width: 240px;
+    }
+    .wsus__ticket_item table tr .status,
+    .wsus__ticket_item table tr .action {
+        min-width: 150px;
+    }
+    .wsus__support_tecket_footer p {
+        margin-bottom: 15px;
+    }
+    .wsus__support_ticket_top .right form {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .wsus__breadcrumb_overlay {
+        padding: 140px 0px 75px 0px !important;
+    }
+    .wsus__404 {
+        height: auto;
+    }
+    .wsus__404 div {
+        height: auto;
+    }
+    .wsus__sellar_top {
+        margin-top: 70px;
+    }
+    .wsus__ticket_item table tr td .active,
+    .wsus__ticket_item table tr td .closed {
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 575.99px) {
+    /* home page start */
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+        font-size: 12px;
+    }
+    .wsus__topbar_info li a i,
+    .wsus__topbar_info li span i {
+        width: 20px;
+        font-size: 12px;
+    }
+    .wsus__topbar_info {
+        justify-content: space-between;
+        line-height: 0;
+    }
+    .wsus__topbar_info li a::after {
+        display: none;
+    }
+    .wsus__topbar {
+        height: auto;
+        padding-top: 18px;
+        padding-bottom: 7px;
+    }
+    .wsus__topbar_right {
+        justify-content: space-between !important;
+    }
+    .wsus__topbar_language {
+        margin-right: 0;
+    }
+    .main_menu {
+        height: 70px;
+        top: 47px;
+    }
+    .main_menu .nav-item .nav-link {
+        text-align: center;
+    }
+    .main_menu .container {
+        padding: 10px 0px;
+    }
+    .main_menu .navbar-nav {
+        line-height: 50px;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorPrimary);
+        margin-top: 8px !important;
+        padding-top: 15px;
+    }
+    .wsus__banner_text ul li .select2-container--default .select2-selection--single .select2-selection__rendered {
+        font-size: 16px;
+    }
+    .wsus__right_menu {
+        background: var(--colorWhite);
+        padding: 10px 0px 20px 0px;
+        justify-content: center;
+    }
+    .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        background: var(--colorPrimary);
+        color: var(--colorWhite);
+        border: none;
+        margin-right: 10px;
+    }
+    .main_menu .navbar-brand {
+        margin-left: 10px;
+    }
+    .main_menu .wsus__droap_menu {
+        left: 50%;
+        transform: translateX(-50%);
+        max-height: 250px;
+        overflow-y: scroll;
+    }
+    .search_form {
+        right: auto;
+        left: 10px;
+    }
+    .search_form {
+        right: auto;
+        left: -20px;
+        width: 300px;
+    }
+    .wsus__banner_text h6 {
+        font-size: 20px;
+    }
+    .wsus__banner_text h1 {
+        font-size: 30px !important;
+    }
+    .wsus__banner_text p {
+        font-size: 16px;
+        width: 100%;
+    }
+    .wsus__banner_text ul {
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+    }
+    .wsus__banner_text ul li::after {
+        display: none;
+    }
+    .wsus__banner_img .img {
+        max-width: 400px;
+    }
+    .wsus__banner_text ul li :no-button {
+        width: 100%;
+    }
+    .wsus__banner_text ul li {
+        width: 100% !important;
+        padding: 5px 20px;
+        border-bottom: 1px solid #eee;
+    }
+    .wsus__banner_text ul li button {
+        width: 100%;
+        margin: 13px 0px;
+    }
+    .wsus__banner_text ul li .select2-container {
+        width: 100% !important;
+    }
+    .wsus__banner_text ul li .select2-container--default .select2-selection--single .select2-selection__rendered {
+        padding-left: 0;
+    }
+    .wsus__banner_img {
+        height: 350px;
+        margin: 40px 0px 43px 0px;
+        padding: 0;
+    }
+    .wsus__banner_text {
+        height: auto;
+        margin-top: 115px;
+        padding-top: 65px;
+    }
+    .wsus__section_heading h2 {
+        font-size: 25px;
+    }
+    .wsus__services_img {
+        height: 200px;
+    }
+    .wsus__services_text {
+        padding: 15px;
+    }
+    .wsus__services_text .title {
+        font-size: 20px;
+    }
+    .single_service_footer {
+        flex-direction: column;
+        align-content: flex-start;
+    }
+    .single_service_footer .img_area {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .single_service_footer p {
+        width: 100%;
+    }
+    .wsus__single_counter span {
+        width: 80px;
+        height: 80px;
+        padding: 23px;
+    }
+    .wsus__single_counter h4 {
+        margin: 15px 0px 5px 0px;
+    }
+    .wsus__single_counter {
+        margin-bottom: 40px;
+    }
+    .wsus__counter_overlay {
+        padding: 70px 0px 25px 0px;
+    }
+    .wsus__seller_join_text h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .wsus__app_download_text h2 {
+        font-size: 25px;
+    }
+    .wsus__app_download_text ul {
+        margin-top: 25px;
+    }
+    .wsus__app_download_text ul li {
+        width: 100%;
+        max-width: 230px;
+    }
+    .wsus__app_download_text ul li a {
+        margin-bottom: 10px;
+    }
+    .wsus__app_download_img {
+        width: 270px;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    .wsus__single_testimonial .review_text {
+        padding: 20px;
+    }
+    .wsus__single_testimonial_img {
+        margin: 35px 0px 0px 0px;
+    }
+    .wsus__single_testimonial .review_text::after {
+        left: 5px;
+    }
+    .wsus__single_testimonial_img p span {
+        font-size: 20px;
+    }
+    .wsus__single_blog_img {
+        height: 200px;
+    }
+    .wsus__single_blog_text {
+        margin: 15px;
+    }
+    .wsus__single_blog_text ul li {
+        margin-right: 15px;
+    }
+    .wsus__single_blog_text h2 {
+        font-size: 20px;
+    }
+    .wsus__single_blog_text a {
+        font-size: 16px;
+    }
+    .wsus__subscribe_text p {
+        font-size: 16px;
+    }
+    .wsus__subscribe_text h3 {
+        font-size: 35px;
+    }
+    .wsus__subscribe_text {
+        padding: 60px 0px 70px 0px;
+    }
+    .wsus__footer_content {
+        margin-bottom: 25px;
+        border-bottom: 1px solid #2f2f2f;
+        padding-bottom: 25px;
+    }
+    .wsus__footer_bottom_content {
+        flex-direction: column;
+    }
+    .wsus__footer_bottom p {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    /* home page end */
+    /* 404 start */
+    .wsus__404_text h2 {
+        font-size: 100px;
+    }
+    .wsus__404_text h3 {
+        font-size: 25px;
+    }
+    .wsus__404_text {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    /* 404 end */
+    /* about start */
+    .wsus__breadcrumb nav h1 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .wsus__work_single {
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+    .wsus__work_single h4 {
+        font-size: 20px;
+        margin: 15px 0px 15px 0px;
+    }
+    .wsus__work_single.last_item {
+        margin-bottom: 0;
+    }
+    .wsus__about_img .img_1 {
+        width: 100% !important;
+        height: 350px !important;
+    }
+    .wsus__about_img .img_2 {
+        height: 275px !important;
+        bottom: 110px;
+        right: 0 !important;
+    }
+    .wsus__about_img {
+        height: 500px;
+    }
+    .wus__about_rating {
+        width: 100%;
+    }
+    .wsus__about_text h2 {
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    .wsus__about_reasons_text h2 {
+        font-size: 25px;
+    }
+    .wsus__about_reasons_img .img_1 {
+        width: 350px !important;
+        height: 350px !important;
+    }
+    .wsus__about_reasons_img .img_2 {
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .wsus__about_reasons_img {
+        height: 400px;
+    }
+    /* about end */
+    /* blog details start */
+    .wsus__blog_details_img {
+        height: 250px;
+    }
+    .wsus__blog_details_text .details_bloger li {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .wsus__blog_details_text {
+        padding: 15px;
+    }
+    .wsus__blog_details_text h2 {
+        font-size: 20px;
+    }
+    .wsus__blog_quot_text {
+        padding: 16px 15px 15px 20px;
+    }
+    .wsus__blog_quot_text p {
+        font-size: 15px;
+    }
+    .wsus__blog_quot_text .left_icon {
+        left: 3px;
+        top: 5px;
+    }
+    .wsus__blog_quot_text h4 span {
+        margin-left: 0;
+    }
+    .wsus__blog_det_slider {
+        margin-bottom: 30px;
+    }
+    .blog_tags_share .tags ul li a {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    .blog_det_button li {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0px;
+    }
+    .blog_det_button li a p,
+    .blog_det_button li a p span {
+        font-size: 16px;
+    }
+    .blog_det_button li a img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .blog_det_button li a p {
+        width: 65%;
+    }
+    .wsus__single_comm_text {
+        width: 100%;
+        margin-top: 13px;
+    }
+    .wsus__comment {
+        padding: 15px;
+    }
+    .wsus__single_comment.replay {
+        padding-left: 0;
+    }
+    .wsus__single_comment.replay .wsus__single_comm_text {
+        width: 100%;
+    }
+    .comment_input {
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+    .blog_sidebar {
+        padding: 15px;
+    }
+    .wsus__related_blog ul li .text a {
+        font-size: 16px;
+    }
+    .wsus__related_blog ul li .text {
+        width: 65%;
+    }
+    /* blog details end */
+    /* blog start */
+    .wsus__pagination ul li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin-right: 8px;
+        font-size: 13px;
+    }
+    .wsus__pagination {
+        margin-bottom: 25px;
+    }
+    /* blog end */
+    /* booking start */
+    .wsus__booking_area {
+        padding: 15px;
+    }
+    .booking_bar li {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 70px;
+    }
+    .booking_bar li::after {
+        width: 80px;
+    }
+    .booking_bar li span {
+        font-size: 12px;
+        bottom: -35px;
+        left: -33px;
+        width: 100px;
+        text-align: center;
+    }
+    .wsus__booking_img {
+        height: 200px;
+        margin-top: 50px;
+    }
+    .wsus__service_booking p {
+        flex-wrap: wrap;
+    }
+    .wsus__service_booking p span {
+        width: 100%;
+    }
+    .wsus__booking_payment li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .wsus__booking_payment {
+        margin-bottom: 15px;
+    }
+    .wsus__booking_info h3 {
+        margin-top: 40px;
+    }
+    .wsus__booking_button_area {
+        margin-bottom: 25px;
+    }
+    .wsus__booking_info_img {
+        height: 350px;
+    }
+    .wsus__booking_text h2 {
+        font-size: 20px;
+    }
+    .wsus__service_booking h3 {
+        font-size: 20px;
+    }
+    .wsus__service_cart {
+        padding: 15px;
+    }
+    /* booking  end */
+    /* contact start */
+    .wsus__contact_top {
+        padding: 35px;
+        margin-bottom: 25px;
+    }
+    .contact_input {
+        padding: 15px;
+    }
+    .contact_map {
+        height: 300px;
+    }
+    .wsus__support_time img {
+        height: 200px !important;
+    }
+    .wsus__contact_top a,
+    .wsus__contact_top p {
+        font-size: 16px;
+    }
+    /* contact end */
+    /* faq start */
+    .wsus__faq_area {
+        margin-bottom: 25px;
+    }
+    .wsus__faq_img {
+        height: 350px;
+    }
+    /* faq end */
+    /* saller page start */
+    .wsus__sellar_top .text h2 {
+        font-size: 30px;
+    }
+    .wsus__sellar_top .text span {
+        font-size: 16px;
+    }
+    .wsus__sellar_top .text a,
+    .wsus__sellar_top .text p {
+        font-size: 15px;
+    }
+    .wsus__sellar_top ul li {
+        font-size: 15px;
+        width: 100%;
+        margin: 0;
+    }
+    .wsus__sellar_top ul {
+        margin-bottom: 45px;
+    }
+    .wsus__sellar_search h3 {
+        font-size: 25px;
+    }
+    .wsus__sellar_search form {
+        width: 100%;
+        margin-top: 20px;
+    }
+    /* saller page end */
+    /* service details start */
+    .wsus__service_details_img {
+        height: 250px;
+    }
+    .wsus__service_details_text {
+        padding: 15px;
+    }
+    .wsus__service_details_text h2 {
+        font-size: 20px;
+    }
+    .wsus__service_details_text .nav-pills li button {
+        font-size: 13px;
+        margin-right: 5px;
+        padding: 7px 10px;
+    }
+    .wsus__service_details_content {
+        margin-bottom: 25px;
+    }
+    .wsus__service_provider {
+        padding: 0;
+    }
+    .tab_details .details_time li {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .tab_details .details_time li span {
+        width: 100px;
+        font-size: 14px;
+    }
+    .wsus__single_review_top .text {
+        width: 100%;
+        margin-top: 15px;
+    }
+    /* service details end */
+    /* login start */
+    .wsus__sign_in_text {
+        padding: 15px;
+    }
+    .wsus__sign_in_text h2 {
+        font-size: 25px;
+    }
+    /* login end */
+    /* dashboard start */
+    .wsus__dashboard_content {
+        padding: 0px 15px 15px 15px;
+    }
+    .wsus_dashboard_body h3 {
+        font-size: 20px;
+    }
+    .wsus_dash_personal_info p span {
+        width: 100%;
+    }
+    .wsus_dash_personal_info {
+        padding: 10px;
+    }
+    .wsus_dash_personal_info h4 {
+        font-size: 16px;
+    }
+    .wsus_dashboard_order table tr th,
+    .wsus_dashboard_order table tr td {
+        width: 150px;
+    }
+    .wsus__single_review_top .text h3 span {
+        display: block;
+        margin-top: 4px;
+    }
+    .wsus_dashboard_order {
+        margin-top: 25px;
+    }
+    .dashboard_review {
+        padding: 15px;
+        margin-top: 25px;
+    }
+    .wsus_dashboard_body {
+        margin-top: 25px;
+    }
+    .wsus__dashboard .modal-dialog {
+        width: 95%;
+    }
+    .wsus__dashboard .modal-content {
+        padding: 15px !important;
+    }
+    .wsus__dashboard .modal-footer button {
+        font-size: 14px;
+        width: 46%;
+    }
+    /* dashboard end */
+    .wsus__banner_img .banner_counter {
+        right: 0;
+        padding: 5px 30px;
+    }
+    /* HOME PAGE 2 START */
+    .home_2 .navbar-toggler {
+        background: #00BF8C;
+    }
+    #navbarNav {
+        border-bottom: 1px solid #00BF8C;
+    }
+    .main_menu .navbar-nav {
+        border-top: 1px solid #00BF8C;
+    }
+    .menu_search_form {
+        margin-bottom: 20px;
+    }
+    .wsus__banner_overlay {
+        padding: 0px 0px 70px 0px;
+    }
+    .home_2 .wsus__banner_text ul li button {
+        position: static;
+        margin: 10px 0px 0px 0px;
+        width: 100%;
+    }
+    .home_2 .wsus__banner_text ul li:last-child {
+        border-bottom: 0;
+    }
+    .home_2 .wsus__banner_text .wsus__banner_search {
+        padding: 0px 0px 10px 0px;
+    }
+    .home_2 .wsus__single_categories .shapes {
+        display: none;
+    }
+    .home_2 .wsus__single_categories {
+        width: 100%;
+    }
+    .home_2 .wsus__single_categories span {
+        margin: 0 auto;
+    }
+    .wsus__services_text2 {
+        padding: 15px;
+    }
+    .wsus__services_text2 ul li p span {
+        margin-left: 5px;
+    }
+    .wsus__services_img2 {
+        height: 200px;
+    }
+    .testimonial2 .wsus__single_testimonial .review_text::before {
+        top: -45px;
+        left: -14px;
+        font-size: 100px;
+    }
+    .wsus__services_text2 img {
+        left: 15px;
+    }
+    .wsus__services_text2 ul {
+        margin-top: 17px;
+    }
+    .wsus__services_text2 .title {
+        font-size: 20px;
+        margin: 10px 0px 20px 0px;
+    }
+    .wsus__booking_service_img {
+        display: none;
+    }
+    .wsus__booking_service_text {
+        padding: 15px;
+    }
+    .wsus__booking_service_text h2 {
+        font-size: 25px;
+    }
+    .wsus__booking_service_overlay {
+        padding: 70px 0px 255px 0px;
+    }
+    .home_2 .wsus__app_download_img {
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+    .testimonial2 .wsus__single_testimonial {
+        padding: 20px;
+    }
+    .wsus__counter2_bg {
+        padding: 70px 0px 30px 0px;
+    }
+    /* HOME PAGE 2 END */
+    /* HOME PAGE 3 START */
+    .home_3 .navbar-toggler {
+        background: linear-gradient(70.49deg, #6765F9 0%, #2251E2 98.96%);
+    }
+    .home_3 .wsus__banner_text ul li {
+        margin-bottom: 10px;
+    }
+    .home_3 .wsus__banner_text ul li:last-child {
+        border: none;
+    }
+    .home_3 .wsus__banner_text ul li button {
+        margin: 0;
+    }
+    .home_3 .banner_tag ul li {
+        width: auto !important;
+    }
+    .home_3 .wsus__banner_text .wsus__banner_search {
+        padding-bottom: 0;
+    }
+    .home_3 .wsus__banner_text ul li.input_area::after {
+        top: 12%;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+    .home_3 .banner_tag ul li a {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .home_3 .banner_tag span {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .home_3 .wsus__banner_text {
+        margin: 70px 0px 60px 0px;
+        padding-bottom: 0;
+    }
+    .home_3 .wsus__counter_3 {
+        padding-bottom: 25px !important;
+    }
+    .wsus__work_sectiion_img {
+        height: 270px;
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+    .wsus__work_sectiion_img::after {
+        height: 89%;
+    }
+    .wsus__work_sectiion_img::before {
+        height: 78%;
+    }
+    .home_3 .wsus__app_download_img {
+        height: 250px;
+    }
+    .home_3 .wsus__seller_join_text h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .home_3 .wsus__subscribe_text form input {
+        padding: 17px 20px;
+    }
+    .home_3 .wsus__sellar_bg {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* HOME PAGE 3 END */
+    .wsus__sellar_joining_bg {
+        padding: 15px;
+    }
+    .wsus__invoice table tr th,
+    .wsus__invoice table tr td {
+        padding: 15px 10px !important;
+    }
+    .wsus__invoice .package {
+        min-width: 200px;
+    }
+    .wsus__invoice .price,
+    .wsus__invoice .qnty,
+    .wsus__invoice .total {
+        min-width: 130px;
+    }
+    .wsus__invoice_footer_info p {
+        flex-wrap: wrap;
+    }
+    .wsus__invoice_footer_info p span {
+        min-width: 100%;
+    }
+    .wsus__invoice_footer_request {
+        margin: 50px 0px 0px 0px;
+    }
+    .wsus__invoice_footer_total {
+        margin-top: 30px;
+    }
+    .wsus__support_ticket_top .right {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .wsus__support_ticket_top .right a {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .wsus__ticket_item table tr .sn {
+        min-width: 80px;
+    }
+    .wsus__ticket_item table tr .from,
+    .wsus__ticket_item table tr .info {
+        min-width: 240px;
+    }
+    .wsus__ticket_item table tr .status,
+    .wsus__ticket_item table tr .action {
+        min-width: 150px;
+    }
+    .wsus__support_tecket_footer p {
+        margin-bottom: 15px;
+    }
+    .wsus__support_ticket_top .right form {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .wsus__banner {
+        height: auto;
+    }
+    .wsus__topbar_icon li a {
+        margin-left: 0;
+        margin-right: 13px;
+    }
+    .wsus__topbar_icon {
+        line-height: 0;
+        display: none !important;
+    }
+    .wsus__banner_img .banner_counter span {
+        font-size: 20px;
+    }
+    .wsus__banner_img .banner_counter p {
+        font-size: 14px;
+    }
+    .wsus__section_heading p {
+        padding: 0;
+    }
+    .wsus__breadcrumb_overlay {
+        padding: 120px 0px 50px 0px !important;
+    }
+    .wsus__404 {
+        height: auto;
+    }
+    .wsus__404 div {
+        height: auto;
+    }
+    .wsus__sellar_top {
+        margin-top: 70px;
+    }
+    .wsus__sellar_top_text .text {
+        padding: 0px 0px 0px 0px;
+    }
+    .wsus__sellar_top img {
+        margin: 50px 50px 30px 0px;
+    }
+    .wsus__invoice_footer_request p span {
+        width: 100%;
+        display: block;
+    }
+    .wsus__support_ticket_single h5 span {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    .wsus__ticket_item table tr td .active,
+    .wsus__ticket_item table tr td .closed {
+        padding: 10px 10px;
+    }
+    .wsus__single_pricing {
+        padding: 20px;
+    }
+    .wsus__single_pricing .wsus_price_head {
+        padding: 11px 40px 9px 40px;
+    }
+    .wsus__single_pricing .wsus_price_head {
+        top: 20px;
+    }
+}

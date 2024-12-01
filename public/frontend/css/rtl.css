@@ -1,0 +1,1022 @@
+* {
+    direction: rtl;
+    text-align: right;
+}
+
+.slick-list {
+    direction: ltr;
+}
+
+.slick-track {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.wsus__topbar_info li a,
+.wsus__topbar_info li span {
+    padding-right: 0;
+    margin-right: 0;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+
+.wsus__topbar_info li a::after {
+    right: auto;
+    left: 0;
+}
+
+.wsus__topbar_icon li a {
+    margin-left: 0;
+    margin-right: 13px;
+}
+
+.wsus__topbar_language li a img {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__topbar_language {
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+.search_form button {
+    right: auto;
+    left: 16px;
+}
+
+.wsus__right_menu {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+.main_menu .wsus__right_menu li:last-child a {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.search_form {
+    right: auto;
+    left: 10px;
+    transform-origin: left;
+}
+
+.main_menu .wsus__right_menu li:nth-child(2) a i {
+    margin-left: 0;
+    margin-right: 5px;
+    transform: rotate(180deg);
+}
+
+.wsus__topbar_info li:first-child a i {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.wsus__topbar_info li:first-child a i {
+    transform: rotateY(180deg);
+    margin-left: 5px;
+}
+
+.wsus__banner_text ul li .select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: auto;
+    left: -10px;
+}
+
+.wsus__banner_text ul li p {
+    text-align: right;
+}
+
+.wsus__banner_text ul li:first-child {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wsus__banner_text ul li::after {
+    right: auto;
+    left: 0;
+}
+
+.wsus__banner_text ul li:first-child:after {
+    right: auto;
+    left: 0;
+}
+
+.wsus__banner_text ul li:first-child::before {
+    left: auto;
+    right: 20px;
+}
+
+.wsus__banner_img .banner_counter {
+    right: auto;
+    left: 10px;
+}
+
+.single_service_footer .img_area img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.single_service_footer p span {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.wsus__app_download_text ul li a {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__app_download_text ul li a span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__single_testimonial_img img {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.wsus__single_testimonial .review_text::before {
+    left: auto;
+    right: 50px;
+    transform: rotateY(180deg);
+}
+
+.wsus__single_blog_text ul li {
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+.wsus__single_blog_text a i {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.wsus__footer_content .social_link li a {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__footer_content .footer_contact li a i,
+.wsus__footer_content .footer_contact li p i {
+    left: auto;
+    right: 0;
+    font-size: 20px;
+    transform: rotateY(180deg);
+}
+
+.wsus__footer_content .footer_contact li a,
+.wsus__footer_content .footer_contact li p {
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+.main_menu .wsus__droap_menu {
+    left: auto;
+    right: 0;
+}
+
+.main_menu .wsus__droap_menu li a::after {
+    right: auto;
+    left: 30px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.main_menu .wsus__droap_menu li a:hover::after,
+.main_menu .wsus__droap_menu li a.active::after {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__single_testimonial .review_text::after {
+    left: auto;
+    right: 40px;
+}
+
+.wsus__single_testimonial_img {
+    margin: 35px 35px 0px 0px;
+}
+
+
+/* about page start */
+.wsus__work_single::after {
+    right: auto;
+    left: 0;
+}
+
+.wsus__about_text ul li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.wsus__about_text ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__about_img .img_2 {
+    right: auto;
+    left: 40px;
+}
+
+.wus__about_rating {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wus__about_rating p {
+    transform: translateY(-50%) rotateY(180deg);
+    -webkit-transform: translateY(-50%) rotateY(180deg);
+    -moz-transform: translateY(-50%) rotateY(180deg);
+    -ms-transform: translateY(-50%) rotateY(180deg);
+    -o-transform: translateY(-50%) rotateY(180deg);
+}
+
+.wsus__about_reasons_text ul li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.wsus__about_reasons_text ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+}
+
+.wsus__about_reasons_img .img_1 {
+    right: auto;
+    left: 0;
+}
+
+.wsus__about_reasons_img .img_2 {
+    left: auto;
+    right: 0;
+}
+
+.wsus__breadcrumb nav ol li,
+.wsus__breadcrumb nav ol li a {
+    padding-left: 1rem;
+    position: relative;
+}
+
+.wsus__breadcrumb nav ol li:last-child {
+    padding-left: 0;
+}
+
+
+.breadcrumb-item+.breadcrumb-item::before {
+    position: absolute;
+    left: auto;
+    right: -20px;
+    transform: rotateY(180deg);
+    padding: 0;
+}
+
+.blog_sidebar form button {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__blog_tags ul li a {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__blog_details_text .details_bloger li {
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+.wsus__blog_quot_text {
+    padding: 35px 70px 35px 35px;
+}
+
+.wsus__blog_quot_text .left_icon {
+    transform: rotateY(0deg);
+    left: auto;
+    right: 40px;
+}
+
+.wsus__blog_quot_text p i {
+    margin-left: 0;
+    margin-right: 10px;
+    transform: rotate(180deg);
+}
+
+.wsus__blog_quot_text h4 span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.blog_details_list li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.blog_details_list li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.blog_tags_share span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.blog_tags_share .tags ul li a {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.blog_det_button li:last-child a p,
+.blog_det_button li:last-child a p span {
+    text-align: right;
+}
+
+.blog_det_button li a span i {
+    margin-left: 0;
+    padding-left: 10px;
+    transform: rotateY(180deg);
+}
+
+.blog_det_button li:last-child a span i {
+    transform: rotateY(180deg);
+}
+
+.blog_det_button li:first-child a span i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.blog_det_button li:first-child a p {
+    text-align: left;
+}
+
+.blog_det_button li a p span {
+    text-align: left;
+}
+
+.wsus__review_input legend {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.wsus__pagination ul li a {
+    margin-right: 0 !important;
+    margin-left: 15px !important;
+}
+
+.wsus__pagination ul li a i {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.wsus__booking_summery ul li {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.wsus__booking_summery ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__single_counter h4 {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.wsus__single_counter h4::after {
+    right: auto;
+    left: 0;
+}
+
+.booking_bar li {
+    margin-right: 0;
+    margin-left: 120px;
+}
+
+.booking_bar li::after {
+    left: auto;
+    right: 100%;
+}
+
+.booking_bar li span {
+    left: auto;
+    right: 48px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: auto !important;
+    left: 1px;
+}
+
+.wsus__sign_in_text .select2-container--default .select2-selection--single .select2-selection__arrow {
+    left: 10px !important;
+}
+
+.wsus__booking_list_text ul li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.wsus__booking_list_text ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__service_cart .name .form-check .form-check-input {
+    float: right;
+}
+
+.wsus__service_cart .name .form-check label {
+    padding-right: 25px;
+}
+
+.wsus__service_cart .name input:checked {
+    transform: rotateY(180deg);
+}
+
+.wsus__contact_top span i {
+    transform: rotateY(180deg);
+}
+
+.accordion-button::after {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.wsus__pricacy_policy_text ul li {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.wsus__pricacy_policy_text ul li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__sellar_top img {
+    margin: 50px 0px 50px 50px;
+}
+
+.wsus__sellar_top ul li {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.wsus__sellar_search form::after {
+    left: auto;
+    right: 20px;
+}
+
+.wsus__sellar_search form button {
+    right: auto;
+    left: 0;
+}
+
+.wsus__sellar_search form {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.wsus__service_provider a {
+    text-align: right;
+}
+
+.tab_details .list li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.tab_details .list li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+}
+
+.tab_details .details_time li {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.tab_details .details_time li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__single_review_top img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.wsus__review_input p span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__package ul li {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.wsus__package ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__service_search .select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__review_input ul li a i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__login_check .form-check input {
+    float: right;
+}
+
+.wsus__login_check .form-check label {
+    margin-right: 25px;
+}
+
+.wsus__login_check .form-check input:checked {
+    transform: rotateY(180deg);
+}
+
+.calendar-header span.button {
+    transform: rotateY(180deg);
+}
+
+.wsus__subscribe_text form button {
+    right: auto;
+    left: 7px;
+    top: 6px;
+}
+
+.wsus__faq_area .accordion-item button {
+    text-align: right;
+}
+
+/* dashboard start */
+.wsus__dashboard_content {
+    padding: 25px 0px 25px 25px;
+}
+
+.dasboard_header img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.wsus__dashboard_menu button {
+    text-align: right;
+}
+
+.wsus__dashboard_menu button.active::after {
+    left: auto;
+    right: -35px;
+}
+
+.wsus_dash_personal_info .nav-link {
+    padding: 9px 40px 3px 15px !important;
+}
+
+.wsus_dash_personal_info .nav-link::after {
+    left: auto;
+    right: 5px;
+}
+
+.wsus_dash_personal_info .nav-link.active {
+    padding: 7px 15px 5px 40px !important;
+}
+
+.wsus_dash_personal_info .nav-link.active::after {
+    left: auto;
+    right: 47px;
+}
+
+.wsus__dashboard .modal-body p {
+    text-align: center;
+}
+
+.wsus__dashboard p b {
+    text-align: center;
+}
+
+.wsus__dashboard .modal-dialog {
+    margin: 1.75rem auto;
+    margin-bottom: 10px;
+    top: auto;
+    left: auto;
+    transform: translate(0) !important;
+}
+
+.wsus__single_review_top .text p {
+    text-align: right;
+}
+
+/* dashboard end */
+
+
+/* HOME PAGE 2 START */
+.home_2 .main_menu .nav-item:first-child .nav-link i {
+    margin-left: 0;
+    margin-right: 4px;
+}
+
+.menu_search_form button {
+    right: auto;
+    left: 0;
+}
+
+.home_2 .wsus__banner_text ul li p {
+    text-align: right;
+}
+
+.home_2 .wsus__banner_text ul li button {
+    right: auto;
+    left: 0;
+}
+
+.home_2 .wsus__banner_text ul li.input_area::after {
+    left: auto;
+    right: 14px;
+}
+
+.home_2 .wsus__banner_text ul li input {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.home_2 .wsus__single_categories .shapes {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.wsus__services_text2 img {
+    left: auto;
+    right: 30px;
+}
+
+.wsus__services_text2 ul li p span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__services_img2 .category {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__booking_service_text .select2-container .select2-selection--single .select2-selection__rendered {
+    padding-right: 15px;
+}
+
+.testimonial2 .wsus__single_testimonial .review_text::before {
+    left: auto;
+    right: -20px;
+}
+
+.testimonial2 .testi_shapes {
+    margin: 25px 0px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.testimonial2 .wsus__single_testimonial_img img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+/* HOME PAGE 2 END */
+.home_3 .banner_tag ul li {
+    padding: 0 !important;
+}
+
+.home_3 .banner_tag ul li:last-child a {
+    margin-right: 10px;
+}
+
+.home_3 .banner_tag span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.home_3 .banner_tag ul li a {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__work_sectiion_text ul li {
+    padding-left: 0;
+    padding-right: 80px;
+}
+
+.home_3 .wsus__banner_text ul li button {
+    right: auto;
+    left: 0;
+}
+
+.home_3 .wsus__banner_text ul li.input_area::after {
+    left: 0;
+    right: 14px;
+}
+
+.home_3 .wsus__banner_text ul li input {
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.wsus__work_sectiion_text ul li span {
+    left: auto;
+    right: 0;
+}
+
+.wsus__work_sectiion_text ul li::after {
+    left: auto;
+    right: 27px;
+}
+
+.wsus__work_sectiion_img::before {
+    left: auto;
+    right: -20px;
+}
+
+.wsus__work_sectiion_img::after {
+    left: auto;
+    right: -10px;
+}
+
+/* HOME PAGE 3 END */
+
+
+/* JOIN SELLER PAGE START */
+.wsus__sellar_joining_top .img {
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+.wsus__sellar_joining .form-check label {
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+.wsus__sellar_joining .form-check input {
+    float: right;
+}
+
+input:checked[type=checkbox] {
+    transform: rotateY(180deg);
+}
+
+/* JOIN SELLER PAGE END */
+
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+    .wsus__features_services .prevArrow {
+        left: -30px;
+        right: auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .wsus__single_blog_text ul li {
+        margin-left: 0;
+    }
+
+    .home_3 .banner_tag ul li a {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    .wsus__banner_text ul li:first-child:after {
+        left: -45px;
+    }
+
+    .wsus__sellar_top img {
+        margin: 25px 0px 25px 25px;
+    }
+
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .wsus__banner_text ul li:first-child:after {
+        left: 0 !important;
+    }
+
+    /* HOME 2 START */
+    .testimonial2 .wsus__single_testimonial .review_text::before {
+        right: -10px;
+    }
+
+    /* HOME 2 END */
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    .wsus__topbar_info li a,
+    .wsus__topbar_info li span {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .search_form {
+        right: 0;
+        left: auto;
+    }
+
+    .wsus__banner_text .select2-container .select2-selection--single .select2-selection__rendered {
+        padding-right: 0;
+    }
+
+    .wsus__banner_text ul li:first-child {
+        padding-left: 20px;
+    }
+
+    .booking_bar li {
+        margin-left: 70px;
+    }
+
+    .booking_bar li span {
+        right: -33px;
+    }
+
+    .wsus__sellar_top img {
+        margin: 25px 0px 25px 25px;
+    }
+
+    .wsus__services_text2 ul li p span {
+        margin-right: 5px;
+    }
+
+    .testimonial2 .wsus__single_testimonial .review_text::before {
+        right: -13px;
+    }
+
+    .home_3 .banner_tag ul li a {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .home_3 .wsus__work_sectiion_img {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    /* home page 3 end */
+    .wsus__features_services .prevArrow {
+        right: auto;
+    }
+}
+
+@media (max-width: 575.99px) {
+
+    .wsus__topbar_language {
+        margin-left: 0 !important;
+    }
+
+    .navbar-toggler {
+        margin-right: 0;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: 50%;
+        right: auto;
+    }
+
+    .wsus__banner_text ul li:first-child {
+        padding-left: 20px;
+    }
+
+    .wsus__banner_text .select2-container .select2-selection--single .select2-selection__rendered {
+        padding-right: 0;
+    }
+
+    .wsus__single_blog_text ul li {
+        margin-left: 15px;
+    }
+
+    .search_form {
+        right: -10px;
+        left: auto;
+    }
+
+    .wsus__about_img .img_2 {
+        right: auto !important;
+        left: 0;
+    }
+
+    .wsus__blog_quot_text {
+        padding: 15px 20px 15px 15px;
+    }
+
+    .wsus__blog_quot_text .left_icon {
+        right: 3px;
+    }
+
+    .wsus__pagination ul li a {
+        margin-left: 8px !important;
+    }
+
+    .booking_bar li {
+        margin-left: 70px;
+    }
+
+    .booking_bar li span {
+        right: -33px;
+    }
+
+    .wsus_dash_personal_info h4 {
+        width: 100%;
+    }
+
+    .wsus__services_text2 ul li p span {
+        margin-right: 5px;
+    }
+
+    .testimonial2 .wsus__single_testimonial .review_text::before {
+        right: -13px;
+    }
+
+    /* home page 2 end */
+    .home_3 .banner_tag ul li a {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .home_3 .wsus__work_sectiion_img {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    /* home page 3 end */
+}
