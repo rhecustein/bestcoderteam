@@ -14,6 +14,7 @@ use App\Models\InstamojoPayment;
 use App\Models\CurrencyCountry;
 use App\Models\Currency;
 use App\Models\Setting;
+use App\Models\Midtrans;
 use Image;
 use File;
 class PaymentMethodController extends Controller
@@ -31,12 +32,13 @@ class PaymentMethodController extends Controller
         $bank = BankPayment::first();
         $paystackAndMollie = PaystackAndMollie::first();
         $instamojo = InstamojoPayment::first();
+        $midtrans = Midtrans::first();
 
         $countires = CurrencyCountry::orderBy('name','asc')->get();
         $currencies = Currency::orderBy('name','asc')->get();
         $setting = Setting::first();
 
-        return view('admin.payment_method', compact('paypal','stripe','razorpay','bank','paystackAndMollie','flutterwave','instamojo','countires','currencies','setting'));
+        return view('admin.payment_method', compact('paypal','midtrans','stripe','razorpay','bank','paystackAndMollie','flutterwave','instamojo','countires','currencies','setting'));
     }
 
     public function updatePaypal(Request $request){
@@ -488,5 +490,43 @@ class PaymentMethodController extends Controller
     }
 
 
+    public function updateMidtrans(Request $request)
+    {
+       $rules = [
+         'account_mode' => $request->status ? 'required' : '',
+         'midtrans_secret_key' => $request->status ? 'required' : '',
+         'midtrans_client_key' => $request->status ? 'required' : '',
+       ];
+       $customMessages = [
+        'account_mode.required' => trans('admin_validation.Account mode is required'),
+        'midtrans_client_key.required' => trans('admin_validation.Midtrans Client key is required'),
+        'midtrans_secret_key.required' => trans('admin_validation.Midtrans Secret key is required'),
+       ];
+       $this -> validate($request, $rules, $customMessages);
+       $midtrans = Midtrans::first();
+
+       $midtrans -> status = $request -> status ? 1 : 0;
+       $midtrans -> account_mode = $request->account_mode;
+       $midtrans -> client_key = $request -> midtrans_client_key;
+       $midtrans -> secret_key = $request -> midtrans_secret_key;
+       $midtrans -> save();
+       if($request -> file('image')){
+        $old_image = $midtrans->image;
+        $user_image = $request->image;
+        $extention = $user_image->getClientOriginalExtension();
+        $image_name = 'midtrans'.date('-Y-m-d-h-i-s-').rand(999,9999).'.'.$extention;
+        $image_name = 'uploads/website-images/'.$image_name;
+
+        Image::make($user_image)->save(public_path().'/'.$image_name);
+        $midtrans->image = $image_name;
+        $midtrans->save();
+        if($old_image){
+            if(File::exists(public_path().'/'.$old_image))unlink(public_path().'/'.$old_image);
+        }      
+       }
+       $notification=trans('admin_validation.Update Successfully');
+       $notification=array('messege'=>$notification,'alert-type'=>'success');
+       return redirect()->back()->with($notification);
+    }
 
 }
