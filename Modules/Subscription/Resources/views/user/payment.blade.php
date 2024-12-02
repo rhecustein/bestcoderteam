@@ -69,128 +69,23 @@
                     </div>
 
                     <ul class="wsus__booking_payment d-flex flex-wrap">
-
-                        @if ($provider_stripe)
-                            @if ($provider_stripe->status == 1)
-                                <li>
-                                    <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#stripePayment">
-                                        <img src="{{ asset($stripe->image) }}" alt="payment img" class="img-fluid w-100">
-                                    </a>
-                                </li>
-                            @endif
-                        @endif
-
-
-                        @if ($provider_paypal)
-                            @if ($provider_paypal->status == 1)
-                                <li>
-                                    <a href="{{ route('user.sub.pay-with-paypal', $service->slug) }}">
-                                        <img src="{{ asset($paypal->image) }}" alt="payment img" class="img-fluid w-100">
-                                    </a>
-                                </li>
-                            @endif
-                        @endif
-
-
-                        @if ($provider_razorpay)
-                            @if ($provider_razorpay->status == 1)
-                                <li>
-                                    <a href="javascript:;" >
-                                        <img id="razorpayBtn" src="{{ asset($razorpay->image) }}" alt="payment img" class="img-fluid w-100">
-                                    </a>
-                                </li>
-
-                                <form action="{{ route('user.sub.pay-with-razorpay', $service->slug) }}" method="POST" class="d-none">
-                                    @csrf
-                                    @php
-                                        $payable_amount = ($total_price - $coupon_discount) * $razorpay->currency_rate;
-                                        $payable_amount = round($payable_amount, 2);
-                                    @endphp
-                                    <script src="https://checkout.razorpay.com/v1/checkout.js"
-                                            data-key="{{ $provider_razorpay->key }}"
-                                            data-currency="{{ $razorpay->currency_code }}"
-                                            data-amount= "{{ $payable_amount * 100 }}"
-                                            data-buttontext="{{__('user.Pay')}} {{ $payable_amount }} {{ $razorpay->currency_code }}"
-                                            data-name="{{ $razorpay->name }}"
-                                            data-description="{{ $razorpay->description }}"
-                                            data-image="{{ asset($razorpay->image) }}"
-                                            data-prefill.name=""
-                                            data-prefill.email=""
-                                            data-theme.color="{{ $razorpay->color }}">
-                                    </script>
-                                </form>
-                            @endif
-                        @endif
-
-                        @if ($provider_flutterwave)
-                            @if ($provider_flutterwave->status == 1)
-                                <li>
-                                    <a onclick="flutterwavePayment()" href="javascript:;">
-                                        <img src="{{ asset($flutterwave->logo) }}" alt="payment img" class="img-fluid w-100">
-                                    </a>
-                                </li>
-                            @endif
-                        @endif
-
-                        @if ($provider_mollie)
-                            @if ($provider_mollie->status ==1)
-                                <li>
-                                    <a href="{{ route('user.sub.pay-with-mollie',$service->slug) }}">
-                                        <img src="{{ asset($mollie->mollie_image) }}" alt="payment img" class="img-fluid w-100">
-                                    </a>
-                                </li>
-                            @endif
-                        @endif
-
-
-                        @if ($provider_paystack)
-                            @if ($provider_paystack->status == 1)
-                                <li>
-                                    <a onclick="payWithPaystack()" href="javascript:;">
-                                        <img src="{{ asset($paystack->paystack_image) }}" alt="payment img" class="img-fluid w-100">
-                                    </a>
-                                </li>
-                            @endif
-                        @endif
-
-
-                        @if ($provider_instamojo)
-                            @if ($provider_instamojo->status == 1)
-                                <li>
-                                    <a href="{{ route('user.sub.pay-with-instamojo', $service->slug) }}">
-                                        <img src="{{ asset($instamojoPayment->image) }}" alt="payment img" class="img-fluid w-100">
-                                    </a>
-                                </li>
-                            @endif
-                        @endif
-
-
-                        @if ($provider_bank_handcash)
-                            @if ($provider_bank_handcash->bank_status == 1)
-                                <li>
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#bankPayment">
-                                        <img src="{{ asset($bankPayment->image) }}" alt="payment img" class="img-fluid w-100">
-                                    </a>
-                                </li>
-                            @endif
-                        @endif
-
-
-
-                        @if ($provider_bank_handcash)
-                            @if ($provider_bank_handcash->handcash_status == 1)
-                                <li>
-                                    <a href="{{ route('user.sub.handcash-payment', $service->slug) }}">
-                                        <img src="{{ asset($bankPayment->handcash_image) }}" alt="payment img" class="img-fluid w-100">
-                                    </a>
-                                </li>
-                            @endif
-                        @endif
-
-
-
-
-
+                        <li>
+                            <a href="">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Midtrans.png"
+                                    alt="payment img" class="img-fluid w-100">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('user.sub.pay-with-paypal', $service->slug) }}">
+                                <img src="{{ asset($paypal->image) }}" alt="payment img" class="img-fluid w-100">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('user.sub.handcash-payment', $service->slug) }}">
+                                <img src="{{ asset($bankPayment->handcash_image) }}" alt="payment img"
+                                    class="img-fluid w-100">
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-xl-4 col-lg-4">
