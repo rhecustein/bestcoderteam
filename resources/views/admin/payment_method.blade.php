@@ -28,6 +28,10 @@
                                             <a class="nav-link active" id="paypal-tab" data-toggle="tab" href="#paypalTab" role="tab" aria-controls="paypalTab" aria-selected="true">{{__('admin.Paypal')}}</a>
                                         </li>
 
+                                         <li class="nav-item border rounded mb-1">
+                                            <a class="nav-link" id="midtrans-tab" data-toggle="tab" href="#midtransTab" role="tab" aria-controls="midtransTab" aria-selected="true">{{__('admin.Midtrans')}}</a>
+                                        </li>
+
                                         <li class="nav-item border rounded mb-1">
                                             <a class="nav-link" id="stripe-tab" data-toggle="tab" href="#stripeTab" role="tab" aria-controls="stripeTab" aria-selected="true">{{__('admin.Stripe')}}</a>
                                         </li>
@@ -145,6 +149,61 @@
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="tab-pane fade" id="midtransTab" role="tabpanel" aria-labelledby="midtrans-tab">
+                                                <div class="card m-0">
+                                                    <div class="card-body">
+                                                        <form action="{{ route('admin.update-midtrans') }}" method="POST" enctype="multipart/form-data">
+                                                            @csrf
+                                                            @method('PUT')
+                                                            <div class="form-group">
+                                                                <label for="">{{__('admin.Midtrans Status')}}</label>
+                                                                <div>
+                                                                    @if ($midtrans->status == 1)
+                                                                        <input id="status_toggle" type="checkbox" checked data-toggle="toggle" data-on="{{__('admin.Enable')}}" data-off="{{__('admin.Disable')}}" data-onstyle="success" data-offstyle="danger" name="status">
+                                                                        @else
+                                                                        <input id="status_toggle" type="checkbox" data-toggle="toggle" data-on="{{__('admin.Enable')}}" data-off="{{__('admin.Disable')}}" data-onstyle="success" data-offstyle="danger" name="status">
+                                                                    @endif
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="form-group">
+                                                                <label for="">{{__('admin.Account Mode')}}</label>
+                                                                <select name="account_mode" id="account_mode" class="form-control">
+                                                                    <option {{ $midtrans->account_mode == 'live' ? 'selected' : '' }} value="live">{{__('admin.Live')}}</option>
+                                                                    <option {{ $midtrans->account_mode == 'sandbox' ? 'selected' : '' }} value="sandbox">{{__('admin.Sandbox')}}</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="form-group">
+                                                                <label for="">{{__('admin.Midtrans Client Key')}}</label>
+                                                                <input type="text" class="form-control" name="midtrans_client_key" value="{{ $midtrans->client_key }}">
+                                                            </div>
+
+                                                            <div class="form-group">
+                                                                <label for="">{{__('admin.Midtrans Secret Key')}}</label>
+                                                                <input type="text" class="form-control" name="midtrans_secret_key" value="{{ $midtrans->secret_key }}">
+                                                            </div>
+
+                                                            <div class="form-group">
+                                                                <label for="">{{__('admin.Existing Image')}}</label>
+                                                                <div>
+                                                                    <img src="{{ asset($midtrans->image) }}" alt="" class="w_200">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="form-group">
+                                                                <label for="">{{__('admin.Existing Image')}}</label>
+                                                                <input type="file" name="image" class="form-control-file">
+                                                            </div>
+
+                                                            <button class="btn btn-primary">{{__('admin.Update')}}</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            
 
                                             <div class="tab-pane fade" id="stripeTab" role="tabpanel" aria-labelledby="stripe-tab">
                                                 <div class="card m-0">

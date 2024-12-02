@@ -704,5 +704,9 @@
   'Yearly' => 'Yearly',
   'All Job Applications' => 'All Job Applications',
   'You can not delete this Plan. Because there are one or more Plan has been Purcheced.' => 'You can not delete this Plan. Because there are one or more Plan has been Purcheced.',
+  'Midtrans'=>'Midtrans',
+  'Midtrans Status' => 'Midtrans Status',
+  'Midtrans Client Key' => 'Midtrans Client Key',
+  'Midtrans Secret Key' => 'Midtrans Secret Key',
 );
  ?>

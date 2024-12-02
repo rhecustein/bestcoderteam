@@ -194,5 +194,7 @@
   'Job already has assigned, so you can not assign again' => 'Job already has assigned, so you can not assign again',
   'Job assigned successfully' => 'Job assigned successfully',
   'KYC Information Submited Olredy' => 'KYC Information Submitted Already',
+  'Midtrans Client key is required' => 'Midtrans Client key is required',
+  'Midtrans Secret key is required' => 'Midtrans Secret key is required',
 );
  ?>
