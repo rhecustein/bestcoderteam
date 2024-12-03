@@ -72,12 +72,30 @@ class MidtransController extends Controller{
                     'name' => $service->name,
                 ],
             ],
+            'callbacks'=>[
+                'finish'=>route('payment.midtrans.finish')
+            ]
         ];
 
         try {
             // Generate Snap token
             $response = (array) Snap::createTransaction($params);
+            $extra_services = json_decode($order_info->extras);
+            $additional_services = array();
+            if($extra_services->ids){
+                foreach($extra_services->ids as $index => $extra_service){
+                    $addition = AdditionalService::find($extra_services->ids[$index]);
+                    $single_extra_service = array(
+                        'service_name' => $extra_services->names[$index],
+                        'qty' => $extra_services->quantities[$index],
+                        'price' => ($extra_services->quantities[$index] * $addition->price),
+                    );
+                    $additional_services[] = $single_extra_service;
+                }
+            }
 
+
+            $order_additional_services = json_encode($additional_services);
             // Save order details to database
             $order = new Order();
             $order->order_id = $order_id;
@@ -93,11 +111,8 @@ class MidtransController extends Controller{
             $order->schedule_time_slot = $order_info->schedule_time_slot;
             $order->additional_amount = $order_info->extra_price;
             $order->package_features = json_encode($order_info->package_features);
-            $order->additional_services = json_encode($extra_services['names']);
-            $order->client_address = json_encode([
-                'address' => $order_info->customer->address,
-                'post_code' => $order_info->customer->post_code,
-            ]);
+            $order->additional_services = $order_additional_services;
+            $order->client_address = json_encode($order_info->customer);
             $order->order_note = $order_info->customer->order_note;
             $order->coupon_discount = $order_info->coupon_discount ?? 0;
             $order->created_at = now();
@@ -116,6 +131,36 @@ class MidtransController extends Controller{
         }
     }
 
+    public function payFinish(Request $request)
+    {
+        $service = Session::get('service');
+        if(!$service){
+            return abort(404);
+        }
+        if($request->has('order_id') && $request->has('transaction_status')){
+            $order = Order::where('order_id',$request->input('order_id'))->first();
+            if(!$order) return abort(404);
+        }else{
+            return abort(404);
+        }
+        $route = 'dashboard';
+        $slug = '';
+        if($request -> input('transaction_status') == 'settlement'){
+            Session::forget('order_info');
+            if(!empty(session('return_from_mollie'))){
+                Session::forget('return_from_mollie');
+            } 
+            Session::forget('service');
+            $notification = trans('user_validation.Your order has been placed. Thanks for your new order');
+            $notification = array('messege'=>$notification,'alert-type'=>'success');
+        }else{
+            $slug =  $service->slug;
+            $notification = trans('user_validation.Payment Faild');
+            $notification = array('messege'=>$notification,'alert-type'=>'error');
+            $route = 'payment';
+        }
+        return redirect()->route($route,$slug)->with($notification);
+    }
 
 
     public function webhook(Request $request)
