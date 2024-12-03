@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this -> call([
-            MidtransSeeder::class
+            MidtransPaymentSeeder::class
         ]);
         // \App\Models\User::factory(10)->create();
 

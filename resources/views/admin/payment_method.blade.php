@@ -175,14 +175,10 @@
                                                                 </select>
                                                             </div>
 
-                                                            <div class="form-group">
-                                                                <label for="">{{__('admin.Midtrans Client Key')}}</label>
-                                                                <input type="text" class="form-control" name="midtrans_client_key" value="{{ $midtrans->client_key }}">
-                                                            </div>
 
                                                             <div class="form-group">
-                                                                <label for="">{{__('admin.Midtrans Secret Key')}}</label>
-                                                                <input type="text" class="form-control" name="midtrans_secret_key" value="{{ $midtrans->secret_key }}">
+                                                                <label for="">{{__('admin.Midtrans Server Key')}}</label>
+                                                                <input type="text" class="form-control" name="midtrans_server_key" value="{{ $midtrans->server_key }}">
                                                             </div>
 
                                                             <div class="form-group">

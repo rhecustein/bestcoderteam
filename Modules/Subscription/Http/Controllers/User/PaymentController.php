@@ -46,6 +46,7 @@ use App\Models\PaypalPayment;
 use App\Mail\OrderSuccessfully;
 use App\Helpers\MailHelper;
 use App\Models\EmailTemplate;
+use App\Models\MidtransPayment;
 
 use App\Models\Flutterwave;
 use App\Models\PaystackAndMollie;
@@ -157,6 +158,7 @@ class PaymentController extends Controller
             $bankPayment = BankPayment::select('id','status','account_info','image')->first();
             $stripe = StripePayment::first();
             $paypal = PaypalPayment::first();
+            $midtrans = MidtransPayment::first();
             $razorpay = RazorpayPayment::first();
             $flutterwave = Flutterwave::first();
             $mollie = PaystackAndMollie::first();
@@ -184,7 +186,6 @@ class PaymentController extends Controller
             $provider_mollie = ProviderMollie::where('provider_id', $service_author_id)->first();
             $provider_instamojo = ProviderInstamojo::where('provider_id', $service_author_id)->first();
             $provider_bank_handcash = ProviderBankHandcash::where('provider_id', $service_author_id)->first();
-
             return view('subscription::user.payment')->with([
                 'active_theme' => $active_theme,
                 'breadcrumb' => $breadcrumb,
@@ -198,6 +199,7 @@ class PaymentController extends Controller
                 'bankPayment' => $bankPayment,
                 'stripe' => $stripe,
                 'paypal' => $paypal,
+                'midtrans'=> $midtrans,
                 'razorpay' => $razorpay,
                 'total_price' => $total_price,
                 'flutterwave' => $flutterwave,
@@ -307,6 +309,7 @@ class PaymentController extends Controller
             $bankPayment = BankPayment::first();
             $stripe = StripePayment::first();
             $paypal = PaypalPayment::first();
+            $midtrans = MidtransPayment::first();
             $razorpay = RazorpayPayment::first();
             $flutterwave = Flutterwave::first();
             $mollie = PaystackAndMollie::first();
@@ -348,6 +351,7 @@ class PaymentController extends Controller
                 'bankPayment' => $bankPayment,
                 'stripe' => $stripe,
                 'paypal' => $paypal,
+                'midtrans'=>$midtrans,
                 'razorpay' => $razorpay,
                 'total_price' => $total_price,
                 'flutterwave' => $flutterwave,
@@ -465,6 +469,25 @@ class PaymentController extends Controller
         $notification = trans('user_validation.Your order has been placed. please wait for admin payment approval');
         $notification = array('messege'=>$notification,'alert-type'=>'success');
         return redirect()->route('dashboard')->with($notification);
+    }
+
+    public function payWithMidtrans($slug){
+        if(env('APP_MODE') == 'DEMO'){
+            $notification = trans('user_validation.This Is Demo Version. You Can Not Change Anything');
+            $notification=array('messege'=>$notification,'alert-type'=>'error');
+            return redirect()->back()->with($notification);
+        }
+        $service = Service::where(['slug' => $slug, 'approve_by_admin' => 1, 'status' => 1, 'is_banned' => 0])->first();
+        if (!$service) {
+            $notification = [
+                'messege' => trans('user_validation.Service Not Found'),
+                'alert-type' => 'error',
+            ];
+
+            session()->flash('messege', $notification['messege']);
+            session()->flash('alert-type', $notification['alert-type']);
+            return abort(404);
+        }
     }
 
     public function payWithStripe(Request $request, $slug){

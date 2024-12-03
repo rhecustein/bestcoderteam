@@ -194,7 +194,6 @@
   'Job already has assigned, so you can not assign again' => 'Pekerjaan sudah ditugaskan, tidak dapat ditugaskan lagi',
   'Job assigned successfully' => 'Pekerjaan berhasil ditugaskan',
   'KYC Information Submited Olredy' => 'KYC Information Submitted Already',
-  'Midtrans Client key is required' => 'Midtrans Client key is required',
-  'Midtrans Secret key is required' => 'Midtrans Secret key is required',
+  'Midtrans Server key is required' => 'Midtrans Server key is required',
 );
  ?>

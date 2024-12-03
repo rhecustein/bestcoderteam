@@ -70,8 +70,8 @@
 
                     <ul class="wsus__booking_payment d-flex flex-wrap">
                         <li>
-                            <a href="">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Midtrans.png"
+                            <a href="{{route('user.sub.pay-with-midtrans',$service->slug)}}">
+                                <img src="{{asset($midtrans->image)}}"
                                     alt="payment img" class="img-fluid w-100">
                             </a>
                         </li>

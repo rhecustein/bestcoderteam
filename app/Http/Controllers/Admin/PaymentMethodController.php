@@ -14,7 +14,7 @@ use App\Models\InstamojoPayment;
 use App\Models\CurrencyCountry;
 use App\Models\Currency;
 use App\Models\Setting;
-use App\Models\Midtrans;
+use App\Models\MidtransPayment;
 use Image;
 use File;
 class PaymentMethodController extends Controller
@@ -32,7 +32,7 @@ class PaymentMethodController extends Controller
         $bank = BankPayment::first();
         $paystackAndMollie = PaystackAndMollie::first();
         $instamojo = InstamojoPayment::first();
-        $midtrans = Midtrans::first();
+        $midtrans = MidtransPayment::first();
 
         $countires = CurrencyCountry::orderBy('name','asc')->get();
         $currencies = Currency::orderBy('name','asc')->get();
@@ -494,21 +494,18 @@ class PaymentMethodController extends Controller
     {
        $rules = [
          'account_mode' => $request->status ? 'required' : '',
-         'midtrans_secret_key' => $request->status ? 'required' : '',
-         'midtrans_client_key' => $request->status ? 'required' : '',
+         'midtrans_server_key' => $request->status ? 'required' : ''
        ];
        $customMessages = [
         'account_mode.required' => trans('admin_validation.Account mode is required'),
-        'midtrans_client_key.required' => trans('admin_validation.Midtrans Client key is required'),
-        'midtrans_secret_key.required' => trans('admin_validation.Midtrans Secret key is required'),
+        'midtrans_server_key.required' => trans('admin_validation.Midtrans Server key is required'),
        ];
        $this -> validate($request, $rules, $customMessages);
-       $midtrans = Midtrans::first();
+       $midtrans = MidtransPayment::first();
 
        $midtrans -> status = $request -> status ? 1 : 0;
        $midtrans -> account_mode = $request->account_mode;
-       $midtrans -> client_key = $request -> midtrans_client_key;
-       $midtrans -> secret_key = $request -> midtrans_secret_key;
+       $midtrans -> server_key = $request -> midtrans_server_key;
        $midtrans -> save();
        if($request -> file('image')){
         $old_image = $midtrans->image;

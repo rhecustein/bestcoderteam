@@ -11,13 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('midtrans', function (Blueprint $table) {
+        Schema::create('midtrans_payments', function (Blueprint $table) {
             $table->id();
             $table->integer('status')->default(0);
             $table->string('name')->nullable();
-            $table->string('account_mode')->default('Sandbox');
+            $table->string('account_mode')->default('sandbox');
             $table->string('image')->nullable();
-            $table->text('client_key')->nullable();
             $table->text('secret_key')->nullable();
             $table->timestamps();
         });

@@ -18,13 +18,15 @@ use Admin\SubscriptionController;
 use Modules\Subscription\Http\Controllers\Admin\PurchaseController;
 use Modules\Subscription\Http\Controllers\Provider\PurchaseController as ProviderPurchaseController;
 use Modules\Subscription\Http\Controllers\Provider\PaypalController;
+use Modules\Subscription\Http\Controllers\User\MidtransController;
 use Modules\Subscription\Http\Controllers\User\PaypalController as UserPaypalController;
 use Modules\Subscription\Http\Controllers\Provider\PaymentGatewayController;
 
 use Modules\Subscription\Http\Controllers\User\PaymentController;
 
-Route::middleware('demo')->group(function(){
+//Route::middleware('demo')->group(function(){
 
+    Route::post('callback/midtrans',[MidtransController::class,'webhook']);
     Route::get('subscription/plan', [FrontendSubscriptionController::class, 'subscription_plan'])->name('subscription-plan');
 
     Route::group(['as'=> 'admin.', 'prefix' => 'admin'],function (){
@@ -122,6 +124,7 @@ Route::middleware('demo')->group(function(){
             Route::post('/bank-payment/{slug}', [PaymentController::class, 'bankPayment'])->name('bank-payment');
             Route::get('/handcash-payment/{slug}', [PaymentController::class, 'handcash_payment'])->name('handcash-payment');
 
+            Route::get('/pay-with-midtrans/{slug}',[MidtransController::class,'payWithMidtrans'])->name('pay-with-midtrans');
             Route::post('/pay-with-stripe/{slug}', [PaymentController::class, 'payWithStripe'])->name('pay-with-stripe');
             Route::post('/pay-with-razorpay/{slug}', [PaymentController::class, 'payWithRazorpay'])->name('pay-with-razorpay');
             Route::post('/pay-with-flutterwave/{slug}', [PaymentController::class, 'payWithFlutterwave'])->name('pay-with-flutterwave');
@@ -158,4 +161,4 @@ Route::middleware('demo')->group(function(){
         });
     });
 
-});
+//});

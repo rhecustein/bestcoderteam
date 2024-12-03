@@ -176,5 +176,6 @@
   'Delete Successfully' => 'Delete Successfully',
   'Updated Successfully' => 'Updated Successfully',
   'Created Successfully' => 'Created Successfully',
+  'Service Not Found' => 'Service Not Found',
 );
  ?>

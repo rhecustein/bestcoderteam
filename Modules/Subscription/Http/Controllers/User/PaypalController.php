@@ -53,7 +53,16 @@ class PaypalController extends Controller
             return redirect()->back()->with($notification);
         }
         $service = Service::where(['slug' => $slug, 'approve_by_admin' => 1, 'status' => 1, 'is_banned' => 0])->first();
+        if (!$service) {
+            $notification = [
+                'messege' => trans('user_validation.Service Not Found'),
+                'alert-type' => 'error',
+            ];
 
+            session()->flash('messege', $notification['messege']);
+            session()->flash('alert-type', $notification['alert-type']);
+            return abort(404);
+        }
         // setup config
 
         $provider_paypal = ProviderPaypal::where('provider_id', $service->provider_id)->first();
