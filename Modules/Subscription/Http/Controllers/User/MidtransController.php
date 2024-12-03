@@ -143,23 +143,19 @@ class MidtransController extends Controller{
         }else{
             return abort(404);
         }
-        $route = 'dashboard';
-        $slug = '';
-        if($request -> input('transaction_status') == 'settlement'){
-            Session::forget('order_info');
-            if(!empty(session('return_from_mollie'))){
-                Session::forget('return_from_mollie');
-            } 
-            Session::forget('service');
+        if($request -> input('transaction_status') == 'settlement'){ 
             $notification = trans('user_validation.Your order has been placed. Thanks for your new order');
             $notification = array('messege'=>$notification,'alert-type'=>'success');
         }else{
-            $slug =  $service->slug;
             $notification = trans('user_validation.Payment Faild');
             $notification = array('messege'=>$notification,'alert-type'=>'error');
-            $route = 'payment';
         }
-        return redirect()->route($route,$slug)->with($notification);
+        Session::forget('order_info');
+        if(!empty(session('return_from_mollie'))){
+            Session::forget('return_from_mollie');
+        } 
+        Session::forget('service');
+        return redirect()->route('dashboard')->with($notification);
     }
 
 
